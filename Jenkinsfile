@@ -2,7 +2,7 @@ pipeline {
     agent any 
 
     environment {
-        GITHUB_URL = 'https://github.com/miamioh-cit/225-lab3-8.git'                                    //<------change this
+        GITHUB_URL = 'https://github.com/miamioh-cit/225-lab4-1.git'                                    //<------change this
         KUBECONFIG = credentials('roseaw-225')                                                          //<------change this
     }
 
